@@ -1,5 +1,12 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
-  }
+import Container from "../components/Container"
+
+
+const Index = () => {
+    return (
+        <Container>
+          <h1>Index</h1>
+        </Container>
+  )
+}
   
-export default HomePage
+export default Index

@@ -1,6 +1,10 @@
-import React from "react";
+import Container from "../components/Container"
 
 const About = () => {
-    return <h1>Hello about</h1>
+    return (
+        <Container>
+            <h1>About</h1>
+        </Container>
+    )
 }
- export default About;
+ export default About
