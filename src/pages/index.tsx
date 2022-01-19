@@ -1,15 +1,13 @@
-import { Container, Row, Grid, Input } from '@nextui-org/react';
-import ItemCard from '../components/item_card';
+import ProductCard from "../components/product_card";
+import { productExample } from "../models/product";
 
 const Index = () => {
+  const product = productExample;
   return (
-    <Container>
-      <Input fullWidth={true} bordered labelPlaceholder="Buscar producto" color="default" />
-      <Row justify="center" align="center">
-        <ItemCard/>
-      </Row>
-    </Container>  
-  )
-}
+    <>
+    <ProductCard product={product}></ProductCard>
+    </>
+  );
+};
 
 export default Index;
